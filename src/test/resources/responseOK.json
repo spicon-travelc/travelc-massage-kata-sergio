@@ -1,0 +1,190 @@
+{
+  "massages": [
+    {
+      "code": "1",
+      "name": "Masaje sueco",
+      "status": "AVAILABLE",
+      "price": {
+        "amount": 25.0,
+        "currency": "EUR"
+      },
+      "duration": "PT30M",
+      "cancellationPolicies": [
+        {
+          "date": "2024-02-03",
+          "price": {
+            "amount": 15.0,
+            "currency": "EUR"
+          }
+        },
+        {
+          "date": "2024-02-02",
+          "price": {
+            "amount": 25.0,
+            "currency": "EUR"
+          }
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "name": "Masaje de Aromaterapia con luces de colores",
+      "status": "AVAILABLE",
+      "price": {
+        "amount": 300.0,
+        "currency": "EUR"
+      },
+      "duration": "PT1H25M",
+      "cancellationPolicies": []
+    },
+    {
+      "code": "3",
+      "name": "Masaje Deportivo 60 minutos",
+      "status": "AVAILABLE",
+      "price": {
+        "amount": 60.0,
+        "currency": "EUR"
+      },
+      "duration": "PT1H",
+      "cancellationPolicies": [
+        {
+          "date": "2024-02-05",
+          "price": {
+            "amount": 30.0,
+            "currency": "EUR"
+          }
+        },
+        {
+          "date": "2024-02-05",
+          "price": {
+            "amount": 40.0,
+            "currency": "EUR"
+          }
+        },
+        {
+          "date": "2024-02-09",
+          "price": {
+            "amount": 50.0,
+            "currency": "EUR"
+          }
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "name": "Masaje Deportivo 45 minutos",
+      "status": "AVAILABLE",
+      "price": {
+        "amount": 45.0,
+        "currency": "EUR"
+      },
+      "duration": "PT45M",
+      "cancellationPolicies": [
+        {
+          "date": "2024-01-29",
+          "price": {
+            "amount": 0.0,
+            "currency": "EUR"
+          }
+        },
+        {
+          "date": "2024-02-08",
+          "price": {
+            "amount": 45.0,
+            "currency": "EUR"
+          }
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "name": "Masaje de piedras calientes",
+      "status": "AVAILABLE",
+      "price": {
+        "amount": 150.0,
+        "currency": "EUR"
+      },
+      "duration": "PT1H10M",
+      "cancellationPolicies": [
+        {
+          "date": "2023-02-08",
+          "price": {
+            "amount": 150.0,
+            "currency": "EUR"
+          }
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "name": "Masaje Tailandés",
+      "status": "UNAVAILABLE",
+      "price": {
+        "amount": 100.0,
+        "currency": "EUR"
+      },
+      "duration": "PT1H10M",
+      "cancellationPolicies": [
+        {
+          "date": "2023-02-08",
+          "price": {
+            "amount": 100.0,
+            "currency": "EUR"
+          }
+        }
+      ]
+    },
+    {
+      "code": "7",
+      "name": "Masaje Shiatsu",
+      "status": "ON_REQUEST",
+      "price": {
+        "amount": 150.0,
+        "currency": "EUR"
+      },
+      "duration": "PT1H30M",
+      "cancellationPolicies": [
+        {
+          "date": "2023-02-08",
+          "price": {
+            "amount": 0.0,
+            "currency": "EUR"
+          }
+        }
+      ]
+    },
+    {
+      "code": "8",
+      "name": "Masaje de Aromaterapia",
+      "status": "AVAILABLE",
+      "price": {
+        "amount": 50.0,
+        "currency": "EUR"
+      },
+      "duration": "PT1H25M",
+      "cancellationPolicies": [
+        {
+          "date": "2024-01-24",
+          "price": {
+            "amount": 15.0,
+            "currency": "EUR"
+          }
+        },
+        {
+          "date": "2024-02-03",
+          "price": {
+            "amount": 25.0,
+            "currency": "EUR"
+          }
+        },
+        {
+          "date": "2024-02-06",
+          "price": {
+            "amount": 40.0,
+            "currency": "EUR"
+          }
+        }
+      ]
+    }
+  ]
+}
