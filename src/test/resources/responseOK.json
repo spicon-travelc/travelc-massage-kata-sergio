@@ -11,14 +11,14 @@
       "duration": "PT30M",
       "cancellationPolicies": [
         {
-          "date": "2024-02-03",
+          "date": "2025-02-03",
           "price": {
             "amount": 15.0,
             "currency": "EUR"
           }
         },
         {
-          "date": "2024-02-02",
+          "date": "2025-02-02",
           "price": {
             "amount": 25.0,
             "currency": "EUR"
@@ -48,21 +48,21 @@
       "duration": "PT1H",
       "cancellationPolicies": [
         {
-          "date": "2024-02-05",
+          "date": "2025-02-05",
           "price": {
             "amount": 30.0,
             "currency": "EUR"
           }
         },
         {
-          "date": "2024-02-05",
+          "date": "2025-02-05",
           "price": {
             "amount": 40.0,
             "currency": "EUR"
           }
         },
         {
-          "date": "2024-02-09",
+          "date": "2025-02-09",
           "price": {
             "amount": 50.0,
             "currency": "EUR"
@@ -81,14 +81,14 @@
       "duration": "PT45M",
       "cancellationPolicies": [
         {
-          "date": "2024-01-29",
+          "date": "2025-01-29",
           "price": {
             "amount": 0.0,
             "currency": "EUR"
           }
         },
         {
-          "date": "2024-02-08",
+          "date": "2025-02-08",
           "price": {
             "amount": 45.0,
             "currency": "EUR"
@@ -164,21 +164,21 @@
       "duration": "PT1H25M",
       "cancellationPolicies": [
         {
-          "date": "2024-01-24",
+          "date": "2025-01-24",
           "price": {
             "amount": 15.0,
             "currency": "EUR"
           }
         },
         {
-          "date": "2024-02-03",
+          "date": "2025-02-03",
           "price": {
             "amount": 25.0,
             "currency": "EUR"
           }
         },
         {
-          "date": "2024-02-06",
+          "date": "2025-02-06",
           "price": {
             "amount": 40.0,
             "currency": "EUR"

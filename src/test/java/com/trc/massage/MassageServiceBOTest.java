@@ -27,7 +27,7 @@ public class MassageServiceBOTest {
     private MassageGateway gateway = mock(MassageGateway.class);
     private MassageServiceBO massageServiceBO = new MassageServiceBO(gateway);
 
-    private LocalDate requestDate = LocalDate.of(2024, 2, 8);
+    private LocalDate requestDate = LocalDate.of(2025, 2, 8);
 
     @Test
     public void given_request_date_valid_should_return_six_massages() throws IOException {
@@ -57,8 +57,8 @@ public class MassageServiceBOTest {
         assertThat(massageService.price().getAmount(), is(25.0));
         assertThat(massageService.price().getCurrency(), is("EUR"));
         assertThat(massageService.policies(), hasSize(2));
-        assertThat(massageService.policies().get(0), is("Sin gastos de cancelación hasta el 01 feb 2024."));
-        assertThat(massageService.policies().get(1), is("Desde el 02 feb 2024: no reembolsable."));
+        assertThat(massageService.policies().get(0), is("Sin gastos de cancelación hasta el 01 feb 2025."));
+        assertThat(massageService.policies().get(1), is("Desde el 02 feb 2025: no reembolsable."));
     }
 
     @Test
@@ -71,7 +71,7 @@ public class MassageServiceBOTest {
         assertThat(massageService.price().getAmount(), is(300.0));
         assertThat(massageService.price().getCurrency(), is("EUR"));
         assertThat(massageService.policies(), hasSize(1));
-        assertThat(massageService.policies().get(0), is("Desde el 08 feb 2024: no reembolsable."));
+        assertThat(massageService.policies().get(0), is("Desde el 08 feb 2025: no reembolsable."));
     }
 
     @Test
@@ -84,9 +84,9 @@ public class MassageServiceBOTest {
         assertThat(massageService.price().getAmount(), is(60.0));
         assertThat(massageService.price().getCurrency(), is("EUR"));
         assertThat(massageService.policies(), hasSize(3));
-        assertThat(massageService.policies().get(0), is("Sin gastos de cancelación hasta el 04 feb 2024."));
-        assertThat(massageService.policies().get(1), is("Entre el 05 feb 2024 y el 07 feb 2024: 40.0 EUR."));
-        assertThat(massageService.policies().get(2), is("Desde el 08 feb 2024: no reembolsable."));
+        assertThat(massageService.policies().get(0), is("Sin gastos de cancelación hasta el 04 feb 2025."));
+        assertThat(massageService.policies().get(1), is("Entre el 05 feb 2025 y el 07 feb 2025: 40.0 EUR."));
+        assertThat(massageService.policies().get(2), is("Desde el 08 feb 2025: no reembolsable."));
     }
 
     @Test
@@ -99,8 +99,8 @@ public class MassageServiceBOTest {
         assertThat(massageService.price().getAmount(), is(45.0));
         assertThat(massageService.price().getCurrency(), is("EUR"));
         assertThat(massageService.policies(), hasSize(2));
-        assertThat(massageService.policies().get(0), is("Sin gastos de cancelación hasta el 07 feb 2024."));
-        assertThat(massageService.policies().get(1), is("Desde el 08 feb 2024: no reembolsable."));
+        assertThat(massageService.policies().get(0), is("Sin gastos de cancelación hasta el 07 feb 2025."));
+        assertThat(massageService.policies().get(1), is("Desde el 08 feb 2025: no reembolsable."));
     }
 
     @Test
@@ -126,11 +126,11 @@ public class MassageServiceBOTest {
         assertThat(massageService.price().getAmount(), is(50.0));
         assertThat(massageService.price().getCurrency(), is("EUR"));
         assertThat(massageService.policies(), hasSize(5));
-        assertThat(massageService.policies().get(0), is("Sin gastos de cancelación hasta el 23 ene 2024."));
-        assertThat(massageService.policies().get(1), is("Entre el 24 ene 2024 y el 02 feb 2024: 15.0 EUR."));
-        assertThat(massageService.policies().get(2), is("Entre el 03 feb 2024 y el 05 feb 2024: 25.0 EUR."));
-        assertThat(massageService.policies().get(3), is("Entre el 06 feb 2024 y el 07 feb 2024: 40.0 EUR."));
-        assertThat(massageService.policies().get(4), is("Desde el 08 feb 2024: no reembolsable."));
+        assertThat(massageService.policies().get(0), is("Sin gastos de cancelación hasta el 23 ene 2025."));
+        assertThat(massageService.policies().get(1), is("Entre el 24 ene 2025 y el 02 feb 2025: 15.0 EUR."));
+        assertThat(massageService.policies().get(2), is("Entre el 03 feb 2025 y el 05 feb 2025: 25.0 EUR."));
+        assertThat(massageService.policies().get(3), is("Entre el 06 feb 2025 y el 07 feb 2025: 40.0 EUR."));
+        assertThat(massageService.policies().get(4), is("Desde el 08 feb 2025: no reembolsable."));
     }
 
     private MassageService getMassageServiceByCode(String code) throws IOException {
